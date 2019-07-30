@@ -39,7 +39,7 @@ flex-direction: column;
 .logo{
 	display: inline-flex;
 
-	width: 26%;
+	width: 30%;
 }
 
 .logo img{
@@ -98,11 +98,11 @@ width: 100%;
 	display: flex;
 justify-content: space-between;
 
-	width: 100%;
+	width: 95%;
 }
 .items{display: inline-flex;
 		align-self: center;
-	font-weight: bold;
+	font-weight: 200;
 		list-style: none;
 		height: 100%;
 
@@ -120,11 +120,11 @@ justify-content: space-between;
     cursor: pointer;
     outline: none;
     color: black;
- 	font-weight: 700;
+ 	font-weight: 300;
     box-sizing: content-box;
     color: #6c6c6c;
    	align-self: center;
-   	padding: 20px;
+   	padding: 5% 6% 5% 6%;
 }
 .items a:hover {
 background-color: white;
@@ -143,7 +143,7 @@ overflow: hidden;
 	display: flex;
 	flex-direction: column;
 	color: black;
- 	font-weight: 400;
+ 	font-weight: bold;
 	font-size: 1.2em;
 	color: #6c6c6c;
 
@@ -176,7 +176,7 @@ text-align: center;
 }
 
 .breadcrumb {
-		width: 35%;
+		width: auto;
 		margin:1% 2% 0 2%;
 		flex-direction: column;
 		align-items: center;
